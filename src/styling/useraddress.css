@@ -1,0 +1,111 @@
+.Address-div {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    height: auto;
+    color: gold;
+    background-color: rgb(56, 54, 54);
+    border-radius: 20px;
+    box-shadow: 0px 3px 6px #eef0f2e3;
+
+}
+
+.Address-div>ul>li {
+    list-style: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.Address-div>ul>li>div {
+    height: inherit;
+    display: flex;
+    font-size: 1.1rem;
+    /* justify-content: space-evenly; */
+    width: 950px;
+    height: 35px;
+    background-color: rgb(62, 60, 60);
+    border-radius: 12px;
+    padding: 2px;
+    flex-wrap: wrap;
+}
+
+.Address-div>ul>li>div>.select-button {
+    background-color: white;
+    color: goldenrod;
+    border-style: none;
+    border-radius: 8px;
+    width: 90px;
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+
+
+.Address-div>ul>li>div>button:hover {
+    cursor: pointer;
+}
+
+.Address-div>ul>li>div>.delete-button {
+    margin-left: 15px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    border-radius: 99999px;
+    cursor: pointer;
+}
+
+.address-header {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: gold;
+}
+
+.add-button {
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    margin-bottom: 3%;
+}
+
+.add-button>button {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border-style: ridge;
+    background-color: rgb(59, 152, 59);
+    outline: none;
+}
+
+.add-button>button>i {
+    color: goldenrod;
+}
+
+.add-button>button:hover {
+    transition: 0.5s;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.nodata-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.nodata-image>img {
+    height: 180px;
+    width: 200px;
+}

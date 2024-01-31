@@ -1,0 +1,76 @@
+.Form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 560px;
+    margin-top: 55px;
+}
+
+.container-info {
+    /* border: 1px solid black; */
+    width: 50vw;
+    /* background-color: gray; */
+    border-radius: 12px;
+}
+
+.field-div {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 18px;
+    text-align: left;
+    font-size: 1.1rem;
+    min-width: 360px;
+}
+
+.field-div>label {
+    color: gold;
+    font-weight: 400;
+    margin-left: 5%;
+}
+
+.field-div>input {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    width: 220px;
+    color: black;
+    font-size: 0.9rem;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.gender-section {
+    margin-top: 10%;
+}
+
+.gender-div {
+    margin: 4% 30%;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.submit-button {
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-bottom: 15px;
+}
+
+.submit-button>button {
+    border-radius: 12px;
+    background-color: rgb(34, 34, 61);
+    font-size: 1rem;
+    font-weight: 600;
+    color: gray;
+    width: 80px;
+}
+
+.submit-button>button:hover {
+    transition: 0.5s;
+    background-color: rgb(16, 16, 36);
+    color: whitesmoke;
+    cursor: pointer;
+}

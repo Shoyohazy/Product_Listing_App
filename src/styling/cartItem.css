@@ -1,0 +1,54 @@
+.item-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 30vh;
+    margin: 5px;
+    border: 1px solid gold;
+    margin-top: 10%;
+}
+
+.content {
+    width: 400px;
+}
+
+.item-info>p {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.item-info {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+
+}
+
+.cart-buttons {
+    margin-right: 15%;
+    display: flex;
+}
+
+.cart-buttons>button {
+    height: 28px;
+    width: 30px;
+    margin: 10px;
+    font-size: 1.4rem;
+    background-color: gold;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.cart-buttons>button:hover {
+    cursor: pointer;
+}
+
+.image-div>img {
+    height: 100px;
+    width: 120px;
+}

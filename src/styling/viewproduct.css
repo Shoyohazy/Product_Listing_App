@@ -1,0 +1,117 @@
+.view-background{
+    position: fixed;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    opacity: 0.95;
+}
+
+.view-container{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    box-shadow: 0px 0px 0px #888;
+    padding: 10px;
+    border-radius: 10px;
+    color:black;
+    margin: 5%;
+    text-align: center;
+}
+.view-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-image>img{
+    height: 180px;
+    width: 150px;
+}
+.view-info{
+    margin-left: 15%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gold;
+    padding: 4px;
+}
+.view-info>.view-heading1{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
+.view-info>.view-heading2{
+    margin-top: 10px;
+}
+.view-info>p{
+    color: slategray;
+    font-size: 1.05rem;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.view-container>a{
+    position: relative;
+    top: 50%;
+    height: 50px;
+    width: 70px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    margin-left: 50%;
+}
+.view-container>a>button:hover{
+    transition: 0.4s;
+    background-color: rgb(35, 2, 67);
+    cursor: pointer;
+}
+.view-container>a>button{
+    height: inherit;
+    width: inherit;
+    border-style: none  ;
+    background-color: blueviolet;
+    color: gold;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-top: 2px;
+}
+/* .view-container>img{
+    margin-bottom: 5%;
+    height: 120px;
+    width: 120px;
+}
+.view-container>h3{
+    margin: 2%;
+}
+.view-container>a{
+    height: 50px;
+    width: 70px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.view-container>a>button{
+    height: inherit;
+    width: inherit;
+    border-style: none  ;
+    background-color: blueviolet;
+    color: gold;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+.view-container>a>button:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: gray;
+} */
