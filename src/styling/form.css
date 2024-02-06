@@ -4,7 +4,6 @@
     align-items: center;
     height: inherit;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    min-width: 560px;
     margin-top: 55px;
 }
 
@@ -73,4 +72,24 @@
     background-color: rgb(16, 16, 36);
     color: whitesmoke;
     cursor: pointer;
+}
+
+
+@media (max-width : 640px){
+    .field-div{
+        flex-direction: column;
+        font-size: 0.8rem;
+        width: inherit;
+        align-items: center;
+    }
+    .Form-container{
+        font-size: 0.8rem;
+        flex-direction: column;
+    }
+    .container-info{
+        width: inherit;
+    }
+    .submit-button{
+        justify-content: center;
+    }
 }

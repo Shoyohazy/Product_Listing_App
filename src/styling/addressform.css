@@ -35,3 +35,12 @@
     transition: 0.3s;
     background-color: goldenrod;
 }
+
+@media (max-width:640px){
+    .address-form{
+        font-size: 10px;
+    }
+    .address-form button{
+        margin-left: 10%;
+    }
+}

@@ -23,17 +23,20 @@
 
 }
 
+
+
 .Address-div>ul>li>div {
     height: inherit;
     display: flex;
     font-size: 1.1rem;
     /* justify-content: space-evenly; */
     width: 950px;
-    height: 35px;
+    height: 55px;
     background-color: rgb(62, 60, 60);
     border-radius: 12px;
     padding: 2px;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
 .Address-div>ul>li>div>.select-button {
@@ -41,9 +44,11 @@
     color: goldenrod;
     border-style: none;
     border-radius: 8px;
-    width: 90px;
+    width: 80px;
     font-size: 0.9rem;
     margin-right: 10px;
+    height: 40px;
+    margin-top: 8px;
 }
 
 
@@ -53,14 +58,16 @@
 
 .Address-div>ul>li>div>.delete-button {
     margin-left: 15px;
-    width: 35px;
+    width: 70px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: red;
     color: white;
-    border-radius: 99999px;
+    border-radius: 8px;
     cursor: pointer;
+    margin-top: 8px;
 }
 
 .address-header {
@@ -108,4 +115,49 @@
 .nodata-image>img {
     height: 180px;
     width: 200px;
+}
+
+@media (max-width:640px){
+    .Address-div{
+        font-size: 10px;
+    }
+    .Address-div>ul{
+        width: inherit;
+        flex-direction: column;
+        height: inherit;
+        flex-direction: column;
+        padding: 0;
+    }
+    .Address-div>ul>li{
+        font-size: 6px;
+        flex-direction: column;
+        padding: 0;
+    }
+    .Address-div>ul>li>div{
+        height: 50px;
+        width: inherit;
+        font-size: 6px;
+        flex-direction: column;
+    }
+    .Address-div>ul>li>div>.select-button{
+        width: 50px;
+        height: 20px;
+        font-size: 6px;
+    }
+    .Address-div>ul>li>div>.delete-button{
+        width: 50px;
+        height: 20px;
+        font-size: 6px;
+    }
+    .Address-div>ul>li>div>.delete-button>i{
+        height: 8px;
+        width: 8px;
+    }
+    .address-header{
+        font-size: 12px
+    }
+    .add-button{
+        height: 30px;
+        margin-top: 5px;
+    }
 }
