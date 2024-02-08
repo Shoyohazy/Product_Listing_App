@@ -177,7 +177,7 @@
     margin-top: 5%;
     color: black;
     max-width: 60rem;
-    margin: 5% auto;
+    margin: 3% auto;
   }
   
   .Card>ul {
@@ -243,6 +243,10 @@
     .Card {
       flex-direction: column; /* Stack items on smaller screens */
     }
+    .Card>ul{
+      max-width: 80%;
+      margin-left: 10%;
+    }
   
     .cart-summary {
       width: 100%;
@@ -254,6 +258,10 @@
   @media only screen and (max-width: 600px) {
     .Card {
       margin: 10%;
+    }
+    .Card>ul{
+      max-width: 80%;
+      margin-left: 10%;
     }
   
     .cart-summary {
