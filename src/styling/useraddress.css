@@ -1,4 +1,4 @@
-.Address-div {
+/* .Address-div {
     width: 90vw;
     display: flex;
     justify-content: center;
@@ -22,14 +22,11 @@
     flex-wrap: wrap;
 
 }
-
-
-
 .Address-div>ul>li>div {
     height: inherit;
     display: flex;
     font-size: 1.1rem;
-    /* justify-content: space-evenly; */
+     justify-content: space-evenly; 
     width: 950px;
     height: 55px;
     background-color: rgb(62, 60, 60);
@@ -117,6 +114,8 @@
     width: 200px;
 }
 
+
+
 @media (max-width:640px){
     .Address-div{
         font-size: 10px;
@@ -160,4 +159,126 @@
         height: 30px;
         margin-top: 5px;
     }
+}
+ */
+
+.Address-div {
+  width: 90%;
+  max-width: 900px;
+  margin: 5% auto;
+  padding: 15px;
+  color: gold;
+  background-color: rgb(56, 54, 54);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px #eef0f2e3;
+}
+
+.Address-div > ul > li {
+  list-style: none;
+  height: auto;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Address-div > ul > li > div {
+  height: auto;
+  display: flex;
+  font-size: 1.1rem;
+  width: 100%;
+  max-width: 600px; /* Adjusted for responsiveness */
+  margin: 0 auto;
+  background-color: rgb(62, 60, 60);
+  border-radius: 12px;
+  padding: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.Address-div > ul > li > div > .select-button {
+  background-color: white;
+  color: goldenrod;
+  border: 2px solid goldenrod;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 120px; /* Adjusted for responsiveness */
+  font-size: 0.9rem;
+  margin-right: 10px;
+  height: 40px;
+  margin-top: 8px;
+}
+
+.Address-div > ul > li > div > .delete-button {
+  margin-left: 15px;
+  width: 100%;
+  max-width: 120px; /* Adjusted for responsiveness */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.address-header {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: gold;
+}
+
+.add-button {
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  margin-bottom: 3%;
+}
+
+.add-button > button {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border-style: ridge;
+  background-color: rgb(59, 152, 59);
+  outline: none;
+}
+
+.add-button > button > i {
+  color: goldenrod;
+}
+
+.add-button > button:hover {
+  transition: 0.5s;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.nodata-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+
+.nodata-image > img {
+  height: 180px;
+  width: 200px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .Address-div > ul > li > div {
+    max-width: 100%; /* Adjusted for smaller screens */
+  }
+
+  .Address-div > ul > li > div > .select-button,
+  .Address-div > ul > li > div > .delete-button {
+    max-width: none; /* Remove max-width for smaller screens */
+  }
 }
