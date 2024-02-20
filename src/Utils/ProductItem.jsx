@@ -25,7 +25,7 @@ function ProductItem(props, { index }) {
   return (
     <tbody key={id} className={index % 2 == 0 ? "gray-bg" : "white-bg"}>
       <tr>
-        <td>
+        <td className="product-image">
           <img src={image} />
         </td>
         <td>{title}</td>

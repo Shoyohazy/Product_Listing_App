@@ -263,12 +263,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10%;
+  margin-top: 10%;
 }
 
 .nodata-image > img {
-  height: 180px;
-  width: 200px;
+  height: 280px;
+  width: 300px;
+  border-radius: 8px;
 }
 
 /* Media query for smaller screens */
